@@ -1,8 +1,9 @@
 package net.huang.parser.xml.test;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-import org.junit.*;
+import org.junit.Test;
 
 public class XmlParserTest {
 
@@ -10,6 +11,12 @@ public class XmlParserTest {
 	public void testReadRedditRss() {
 		
 		assertTrue(true);
+	}
+	
+	@Test
+	public void testReadRedditRss2()
+	{
+		assertFalse(false);
 	}
 
 }
