@@ -17,6 +17,7 @@ public class XmlParserTest {
 	public void testReadRedditRss2()
 	{
 		assertFalse(false); //test comment
+		// test comment 2
 	}
 
 }
